@@ -20,17 +20,21 @@ Natural language processing (NLP) is a critical component of modern information 
 2. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Dan Jurafsky, James H. Martin. Speech and Language Processing (3rd ed. draft)</a>
 
 
+## Course Structure
+This course will consist of 2.5 hour segments that will each be broken down into a lecture and a lab. Lab participation is required, and more many labs code will be turned in. See the Github instructions for how to do this. Lab code much be checked in no later than 11:59 pm EST the day of lab.
+
+
 ## Course Grade
 
-|   Component       | Weight |         Description           |
+|   Component       | Weight |         Description         |
 | :-----------:     | :----: | :-------------------------: |
 | Entrance Exam     |    5%  |   Take home, individual     |   
-| Placement Exam    |   10%  |   Take home, groups <= 4    | 
+| Placement Exam    |    5%  |   Take home, groups <= 4    | 
 | Assignment 1      |   10%  |   individual                | 
 | Assignment 2      |   10%  |   individual                | 
 | Assignment 3      |   10%  |   individual                | 
-| Final Project     |   50%  |   Groups <= 4               | 
-| Lab participation |    5%  |   --                        | 
+| Final Project     |   40%  |   Groups <= 4               | 
+| Lab participation |   20%  |   --                        | 
 
 
 ## Using Github
