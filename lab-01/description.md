@@ -14,7 +14,7 @@ Navigate to the [Python environment setup page](https://github.com/chrislarson1/
     $ pip install -r requirements.txt
 
 ## Task I: `jupyterlab-starter.ipynb`
-To complete this task you'll need to complete two subtasks: 1) run the first sublock in the jupyter notebook to ensure that your packages were installed successfully and that IPython is pointed at the correct Python binary, and 2) complete the function `linear_transformation()` to compute a matrix multiplication between the weight matrix `W` and data `X`. When you're finished completing the notebook, save the file and then push it up to github using the following commands:
+To complete this task you'll need to complete two subtasks: 1) run the first sublock in the jupyter notebook to ensure that your packages were installed successfully and that IPython is pointed at the correct Python binary, and 2) complete the function `linear_transformation()` by implementing matrix multiplication between the tensor `W` and data `X`. When you're finished completing the notebook, save the file and then push it up to github using the following commands:
 
     $ git add lab-01/jupyterlab-starter.ipynb
     $ git commit -m 'completed lab-01, task 1'
