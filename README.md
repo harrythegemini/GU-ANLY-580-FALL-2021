@@ -1,5 +1,6 @@
 # ANLY-580 Natural Language Processing
 
+
 #### Instructor: Chris Larson
 
 #### Term: Fall 2021
@@ -21,7 +22,7 @@ Natural language processing (NLP) is a critical component of modern information 
 
 
 ## Course Structure
-This course will consist of 2.5 hour segments that will each be broken down into a lecture and a lab. Lab participation is required, and more many labs code will be turned in. See the Github instructions for how to do this. Lab code much be checked in no later than 11:59 pm EST the day of lab.
+This course will consist of 14 2.5 hour classes. Each class is broken down into a lecture (~1 hr) and a lab (~1.5 hrs). Lab participation is required, and some labs will require code to be submitted. Lab code much be checked in no later than 11:59 pm EST the day of lab. See the [Github instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) for how to do this.
 
 
 ## Course Grade
