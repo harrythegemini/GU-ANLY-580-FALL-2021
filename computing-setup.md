@@ -9,7 +9,7 @@ This course will make extensive use of the machine learning toolset within the P
 
         $ which conda
 
-3. Go to the [Anaconda website](https://docs.anaconda.com/products/individual) and download the appropriate GUI installer for your machine. This file is ~500MB and may take a while to download. Launch the installer by clicking on it and follow the prompts. Note, you can overwrite your current Anaconda installation by simply rerunning this step.
+3. Go to the [Anaconda website](https://docs.anaconda.com/anaconda/install/) and download the appropriate GUI installer for your machine. This file is ~500MB and may take a while to download. Launch the installer by clicking on it and follow the prompts. Note, you can overwrite your current Anaconda installation by simply rerunning this step.
 
 4. If you don't already have an IDE, a few good choices are [PyCharm](https://www.jetbrains.com/pycharm/download/) and [VSCode](https://code.visualstudio.com/download). Both of these IDEs have a convenient feature that allows you to open a shell directly in the GUI, making it easy to switch between running shell commands and writing code.
 
@@ -27,19 +27,16 @@ This course will make extensive use of the machine learning toolset within the P
 
         $ conda deactivate
 
-# Installing packages
 
-We will only need a single environment for this course. Prior to begining assignment/lab/project work, always make sure that you've activated your conda environment. After you've done that, any packages that you install will be installed in this environment. To install packages, you can run either of the following commands. Conda is a full fledged dependency manager that will resolve any dependency conflicts that arise, while `pip` will just do what you tell it. In this class `pip` should be sufficient, but feel free to use either.
+## Installing packages
+
+We will only need a single environment for this course. Prior to begining assignment/lab/project work, always make sure that you've activated your conda environment. After you've done that, any packages that you install will be accessible from within this environment. To install packages, you can run either of the commands below. Conda is a full fledged dependency manager that will resolve any dependency conflicts that arise, while `pip` will just do what you tell it. For the purposes of this class `pip` should be sufficient, but feel free to use either.
 
     (anly-580) $ pip install <package-name>
 
 or 
 
     (anly-580) $ conda install <package-name>
-
-
-
-<br>
 
 
 ## Docker
@@ -53,4 +50,4 @@ For Linux users, navigate here [https://docs.docker.com/engine/install/](https:/
 
 ## AWS
 
-We are currently trying to arrange student access to virtual machines on AWS. Specific instructions and assistance will be provided when those arrangements get made to get you running on cloud instances for certain computationally intensive tasks.
+We are currently trying to arrange student access to virtual machines on AWS. Specific instructions and assistance will be provided when those arrangements get made.
