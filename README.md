@@ -143,4 +143,4 @@ Natural language processing (NLP) is a critical component of modern information 
 
 
 ## Using this course
-All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are <a href="">here</a>.
+All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are <a href="https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md">here</a>.
