@@ -20,7 +20,6 @@ Natural language processing (NLP) is a critical component of modern information 
 2. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Dan Jurafsky, James H. Martin. Speech and Language Processing (3rd ed. draft)</a>
 
 
-
 ## Course Grade
 
 |   Component       | Weight |         Description           |
@@ -34,84 +33,8 @@ Natural language processing (NLP) is a critical component of modern information 
 | Lab participation |    5%  |   --                        | 
 
 
-<!-- ## Course Topics
-
-<ol>
-
-<li>Text classification</li>
-	<ul>
-		<li>Text tokenization</li>
-		<li>Stemming & Lemmatization</li>
-		<li>Part of Speech Tagging</li>
-		<li>Syntactic and dependency parsing</li>
-		<li>Continuous Bag Of Words</li>
-		<li>Classification with Naive Bayes and logistic regression</li>
-	</ul>
-
-
-<li>Distributional Semantics</li>
-	<ul>
-		<li>TF-IDF</li>
-		<li>Latent Semantic Analysis</li>
-		<li>Topic modeling</li>
-		<li>Skip-gram models</li>
-		<li>Word embeddings</li>
-		<li>GloVe vectors</li>
-		<li>Autoencoders & word2vec</li>
-		<li>Similarity metrics/measures</li>
-	</ul>
-
-<li>Language Modeling</li>
-	<ul>
-		<li>Markov models</li>
-		<li>N-gram models</li>
-		<li>Sparse data & smoothing</li>
-	</ul>
-
-<li>Natual Language Understanding Tasks</li>
-	<ul>
-		<li>Classification</li>
-		<li>Summarization</li>
-		<li>Natural language inference</li>
-		<li>Question answering</li>
-		<li>Named Entity Recognition</li>
-		<li>Relation extraction</li>
-		<li>Zero-shot learning</li>
-		<li>Machine translation</li>
-		<li>Evaluation metrics (BLUE, ROUGE, etc.)</li>
-	</ul>
-
-<li>Neural Network Architectures for Sequences</li>
-	<ul>
-		<li>Convolutional filtering</li>
-		<li>Recurrent models</li>
-		<li>Encoder-decoder models</li>
-		<li>Attention mechanisms</li>
-		<li>Transformer models</li>
-	</ul>
-
-<li>Speech Processing for NLP</li>
-	<ul>
-		<li>Fourier transforms & mel spectrgrams</li>
-		<li>Automatic speech recognition</li>
-		<li>Acoustic models</li>
-		<li>Gaussian Mixture models</li>
-		<li>Connectionist Temporal Classification</li>
-		<li>Transducer RNN</li>
-		<li>Spectrogram & waveform synthesis</li>
-		<li>Tacotron & Wavenet/Waveglow models</li>
-	</ul>
-
-<li>Conversational System Design</li>
-	<ul>
-		<li>Open domain dialog</li>
-		<li>Task based assistants</li>
-		<li>Natural Language Generation</li>
-		<li>Ontologies & knowledge graphs</li>
-		<li>Biases in data and fairness</li>
-	</ul>
-
-</ol> -->
+## Using Github
+All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are <a href="https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md">here</a>.
 
 
 ## Course Schedule
@@ -127,7 +50,7 @@ Natural language processing (NLP) is a critical component of modern information 
 |    Sep 27      |     Sep 23   | 5  | **Language Modeling: Part 1** <br> - N-grams, sparse data & smoothing <br> - Markov models <br> - Viterbi algorithm <br> **Lab** <br> - Build a semantic matching service with <a href="https://github.com/facebookresearch/StarSpace">StarSpace</a> and <a href="https://github.com/chrislarson1/virtex">Virtex</a> <br> [<a href="">Slides</a>] [<a href="">Code</a>]  | Suggested Reading: <br> [<a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf">Eisenstein, Chp 6.1-6.2</a>] <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chps 3, 8</a>] <br> [<a href="https://arxiv.org/pdf/1607.04606.pdf">Bojanowski et al., 2017</a>] <br> [<a href="https://arxiv.org/pdf/1709.03856.pdf">Wu et al., 2017</a>] <br> [<a href="https://fasttext.cc/">FastText</a>] |
 |    Oct 03      |     Sep 29   |  | Assignment 1 Due **11:59pm EST** | [<a href="">Assignment link</a>] |
 |    Oct 04      |     Sep 30   | 6  | **Language Modeling: Part 2** <br> - Introduction to neural language models <br> - Next word prediction <br> - Downstream tasks <br> - Evaluation metrics <br> **Lab** <br> - Course project kick-off <br> [<a href="">Slides</a>] [<a href="">Code</a>]  | Suggested Reading: <br> [<a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes-10-15-2018.pdf">Eisenstein, Chp 3</a>] <br> [<a href="http://nlpprogress.com/">NLP Progress website</a>] <br> [<a href="https://huggingface.co/datasets">Huggingface Datasets</a>] <br> [<a href="https://aclanthology.org/W18-5446.pdf">Wang et al., 2018</a>] <br> [<a href="">Project description</a>] |
-|    Oct 11      |     Oct 07   | 7  | **Neural Network Architectures for Sequences: Part I** <br> - Convolutional filtering <br> - RNNs, Seq2Seq models <br> - Bidirectionality & ELMO <br> **Lab** <br> - Introduction to <a href="https://huggingface.co/datasets">Huggingface</a> <br> - Train OpenNMT on en-de dataset <br> [<a href="">Slides</a>] [<a href="">Code</a>]  | Suggested Reading: <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chp 9</a>] <br> [<a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes-10-15-2018.pdf">Eisenstein, Chp 6.3</a>] <br> [<a href="https://arxiv.org/pdf/1508.06615.pdf">Kim et al., 2016</a>]  |
+|    Oct 11      |     Oct 07   | 7  | **Neural Network Architectures for Sequences: Part I** <br> - Convolutional filtering <br> - RNNs, Seq2Seq models <br> - Bidirectionality & ELMO <br> - Siamese nets <br> **Lab** <br> - Introduction to <a href="https://huggingface.co/datasets">Huggingface</a> <br> - Train OpenNMT on en-de dataset <br> [<a href="">Slides</a>] [<a href="">Code</a>]  | Suggested Reading: <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chp 9</a>] <br> [<a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes-10-15-2018.pdf">Eisenstein, Chp 6.3</a>] <br> [<a href="https://arxiv.org/pdf/1508.06615.pdf">Kim et al., 2016</a>] <br> [[Minaee et al., 2020 (Sec. 2.8)](https://arxiv.org/pdf/2004.03705.pdf)] |
 |    Oct 18      |     Oct 14   | 8  | **Neural Network Architectures for Sequences: Part II** <br> - Masked language model training <br> - Attention <br> - Transformers (BERT, GPT*, ...) <br> **Lab** <br> - Finetune BERT on DBpedia, CoNLL-2003, SQuADv2 <br> [<a href="">Slides</a>] [<a href="">Code</a>]   | Suggested Reading: <br> [<a href="https://arxiv.org/pdf/1609.08144v2.pdf">Wu et al., 2016</a>] <br> [<a href="https://arxiv.org/pdf/1706.03762.pdf">Vaswani et al., 2017</a>] <br> [<a href="https://arxiv.org/pdf/1810.04805.pdf">Devlin et al., 2019</a>] <br>  [<a href="https://arxiv.org/pdf/2005.14165.pdf">Brown et al., 2020</a>]  |
 |    Oct 24      |     Oct 20   |  | Assignment 2 Due **11:59pm EST** | [<a href="">Assignment link</a>] |
 |    Oct 25      |     Oct 21   | 9  | **Guest Lecture: Introduction to Jarvis** <br> Oluwatobi Olabiyi <br> Senior Research Manager, NVIDIA <br> **Lab** <br> - Project work <br> [<a href="">Slides</a>]  	|     |
@@ -140,7 +63,3 @@ Natural language processing (NLP) is a critical component of modern information 
 |    Dec 06      |     Dec 02   | 14 | **The Future of NLP** <br> - Zero- & few-shot learning <br> - Differential privacy <br> - Fairness and bias <br> - Model size & sustainability <br> **Lab** <br> - Project wrap-up <br> [<a href="">Slides</a>] [<a href="">Code</a>]   | Suggested Reading: <br> [<a href="https://cdn.openai.com/palms.pdf">Solaiman et al., 2021</a>]  |
 | Dec 08 | Dec 08 |  | Final projects Due **11:59pm EST** | |
 | TBD    | TBD    |  | Final project demos | |
-
-
-## Using this course
-All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are <a href="https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md">here</a>.
