@@ -2,9 +2,9 @@
 
 
 ## Github setup
-Navigate to the [github onboarding page](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) and complete the instructions to create your own fork of this repository. All code that you write for exams, assignments, project work, and labs (including this one) will be submitted by pushing the code to your fork.
+Navigate to the [github onboarding page](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) and complete the instructions to create your own fork of this repository. All code that you write for assignments, projects, and labs (including this one) will be submitted by pushing the code to your fork.
 
-Once you're setup with Github, it's important that you keep your fork up-to-date with the upstream branch. This means running the following command before starting your work:
+Once you're setup with Github, it's important that you keep your fork up-to-date with the upstream branch. This means running the following command before starting each assignment or lab:
 
     $ git pull upstream
 
