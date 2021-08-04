@@ -22,7 +22,7 @@ Natural language processing (NLP) is a critical component of modern information 
 
 
 ## Course Structure
-This course will consist of 14 2.5 hour classes. Each class is broken down into a lecture (~1 hr) and a lab (~1.5 hrs). Lab participation is required, and some labs will require code to be submitted. Lab code much be checked in no later than 11:59 pm EST the day of lab. See the [Github instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) for how to do this.
+This course will consist of 14 2.5 hour classes. Each class is broken down into a lecture (~1 hr) and a lab (~1.5 hrs). Both lecture and lab attendance is required. Some labs will require code to be submitted. Lab code much be checked in no later than 11:59 pm EST the day of lab. See the [Github instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) for how to do this.
 
 
 ## Course Grade
