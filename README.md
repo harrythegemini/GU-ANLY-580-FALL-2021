@@ -140,3 +140,7 @@ Natural language processing (NLP) is a critical component of modern information 
 |    Dec 06      |     Dec 02   | 14 | **The Future of NLP** <br> - Zero- & few-shot learning <br> - Differential privacy <br> - Fairness and bias <br> - Model size & sustainability <br> **Lab** <br> - Project wrap-up <br> [<a href="">Slides</a>] [<a href="">Code</a>]   | Suggested Reading: <br> [<a href="https://cdn.openai.com/palms.pdf">Solaiman et al., 2021</a>]  |
 | Dec 08 | Dec 08 |  | Final projects Due **11:59pm EST** | |
 | TBD    | TBD    |  | Final project demos | |
+
+
+## Using this course
+All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are <a href="">here</a>.
