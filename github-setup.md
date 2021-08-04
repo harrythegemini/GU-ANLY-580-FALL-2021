@@ -60,4 +60,4 @@ After you've pulled the new content and pushed it to your fork, you can begin co
 
 1. The `upstream` remote is read-only, meaning that you should **never** try to push upstream, only pull.
 
-2. Git is primarily meant to be a code versioning system. If you have large data files (100MB+) that accompany assignment or project work submissions, please stick them in a storage bucket (e.g., Box, Google Drive) and provide a link to it's location in the code/notebook that you are submitting.
+2. Git is a code versioning system. If you have large data files (100MB+) that accompany assignment or project work submissions, please stick them in a storage bucket (e.g., Box, Google Drive) and provide a link to it's location in the code/notebook that you are submitting.
