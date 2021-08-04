@@ -25,4 +25,4 @@
 
 <br>
 
-5. All of my submissions will be made by pushing code/exams/assignments to my own fork for the course repository.
+5. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
