@@ -20,31 +20,36 @@ This course will be conducted primarily through Github. Materials will be posted
 
 5. Email the <a href="chris.larson@georgetown.edu">instructor</a> with your Github user handle to request access to the course repository. You will recieve a confirmation email when you've been granted access.
 
-6. Login to GitHub in a web browser and fork [this repository](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git). This can be done by clicking the *fork* button located in the top-right corner of the page (see below).
+6. Log in to Github and create a new repository called `GU-ANLY-580-FALL-2021`. Github will ask if you want to create a README, add a license etc.., leave the repo empty by not checking any of those boxes. The repository should be tagged as private by default, but make sure that it is private (you can change this in the settings tab after it has been created). Strict policy: only you, the instructor, and the TAs can have access to your fork. 
 
-	<p align="center">
-	<img src="assets/fork.png" alt="fork-screenshot" width="50%"/>
-	</p>
+7. Clone the course repository onto your local machine, modifying the directory path as necessary:
 
-7. Give the instructor access to your fork by navigating to your fork on the github website and then clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`. 
+    	$ cd ~/Documents && git clone https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git && cd GU-ANLY-580-FALL-2021
 
-8. Create a local directory for the course, replacing `<your-github-handle>` in the snippet below with your Github user handle:
+8. Next we are going to rename the remote branch `origin` to `upstream`:
 
-    	$ cd ~/Documents && git clone https://github.com/<your-github-handle>/GU-ANLY-580-FALL-2021.git && cd GU-ANLY-580-FALL-2021
+		$ git remote rename upstream origin
 
-8. Git allows you to define multiple *remote* sources, to/from which you can push/pull changes. The `git clone ...` command in step 7 automatically created a remote called `origin`. The `origin` remote will remain pointed at your fork. Now create a remote called `upstream` and point it at the main course repository. This will allow you to pull new content as it becomes available throughout the semester. 
+9. Now recreate the origin remote and point it to your private github repo, replacing `<YOUR-GITHUB-HANDLE>` with your Github username:
 
-    	$ git remote add upstream https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git	
+		$ git remote add origin https://github.com/<YOUR-GITHUB-HANDLE>/GU-ANLY-580-FALL-2021.git
 
-9. Confirm that you have created the upstream remote
+10. Before proceeding, check that your remote branches are correct. You should have a `origin` remote pointed at `https://github.com/<YOUR-GITHUB-HANDLE>/GU-ANLY-580-FALL-2021.git`, and an `upstream` remote pointed at `https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git`:
 
-    	$ git remote --v
+		$ git remote --v
+
+11. Next, push the cloned repository up to your remote:
+
+		$ git push -u origin
+
+12. Give the instructor access to your repository by going to your repo in the github UI and clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`.
+
 # 
 ##  Syncing your fork
 
-New material will be added to the main repository every week. To sync your fork, run the following command:
+New material will be added to the main repository every week. To sync your fork (this is technically not a fork, but we are treating it as one), run the following command:
 
-	$ git pull upstream && git push origin
+	$ git pull upstream main && git push origin
 
 #
 ## Submitting your work
@@ -52,7 +57,7 @@ New material will be added to the main repository every week. To sync your fork,
 After you've pulled the new content and pushed it to your fork, you can begin completing your coding assignments. To submit files, push the files to your fork using the following flow:
 
 	$ git add <file-to-be-submitted>
-	$ git commit -m  "your commit message goes here"
+	$ git commit -m  "some commit message"
 	$ git push origin
 
 #
