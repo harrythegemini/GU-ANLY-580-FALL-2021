@@ -34,15 +34,17 @@ This course will be conducted primarily through Github. Materials will be posted
 
 		$ git remote add origin https://github.com/<YOUR-GITHUB-HANDLE>/GU-ANLY-580-FALL-2021.git
 
-10. Before proceeding, check that your remote branches are correct. You should have a `origin` remote pointed at `https://github.com/<YOUR-GITHUB-HANDLE>/GU-ANLY-580-FALL-2021.git`, and an `upstream` remote pointed at `https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git`:
+10. Before proceeding, check that your remote branches are correct. You should have a `origin` remote pointed at `https://github.com/<YOUR-GITHUB-HANDLE>/GU-ANLY-580-FALL-2021.git`, and an `upstream` remote pointed at `https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git`.
 
 		$ git remote --v
 
-11. Next, push the cloned repository up to your remote:
+11. Say outloud to yourself 100 times repeatedly, I will never, ever run `git push upstream`. This is critically important. We are using free tier Github which doesn't come with branch protection. If you push your code to the upstream remote, you are pushing your code to the main repository where everyone can see it. Don't do this! There are ways to explictely prevent this, but to make life easy for the instructor and the TAs, let's use the honor system.  
+
+12. Next, push the cloned repository up to your remote:
 
 		$ git push -u origin
 
-12. Give the instructor access to your repository by going to your repo in the github UI and clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`.
+13. Give the instructor access to your repository by going to your repo in the github UI and clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`.
 
 # 
 ##  Syncing your fork
