@@ -2,10 +2,11 @@
 
 ### Format: takehome, open book, groups of 4 or less
 
-### Due date: Sep 08 (section I) / Sep 12 (section II)
+### Due dates: 
+ - Section I: Sep 08
+ - Section II: Sep 12
 
 ### Grade: 5%
 
-<br>
 
 ## Problems

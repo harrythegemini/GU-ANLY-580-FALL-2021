@@ -4,7 +4,10 @@
 
 ### Grade: 5%
 
-### Due date: Aug 29 (section I) / Sep 01 (section II)
+### Due dates: 
+ - Section I: Aug 29
+ - Section II: Sep 01
+
 
 ### Questions (true/false)
 
