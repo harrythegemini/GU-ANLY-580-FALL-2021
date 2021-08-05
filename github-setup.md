@@ -38,7 +38,7 @@ This course will be conducted primarily through Github. Materials will be posted
 
 		$ git remote --v
 
-11. Say outloud to yourself 100 times repeatedly, I will never, ever run `git push upstream`. This is critically important. We've disabled this, but someone knowledgeable in git could easily get around this. Don't do this please!
+11. Say outloud to yourself 100 times repeatedly, I will never, ever run `git push upstream`. This is critically important. We've disabled this, but those familiar with git can easily get around this. Don't do this please!
 
 12. Next, push the cloned repository up to your remote:
 
