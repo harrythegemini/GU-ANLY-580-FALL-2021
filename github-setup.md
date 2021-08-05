@@ -28,7 +28,7 @@ This course will be conducted primarily through Github. Materials will be posted
 
 8. Next we are going to rename the remote branch `origin` to `upstream`:
 
-		$ git remote rename upstream origin
+		$ git remote rename upstream origin && git remote set-url --push upstream anly-580
 
 9. Now recreate the origin remote and point it to your private github repo, replacing `<YOUR-GITHUB-HANDLE>` with your Github username:
 
@@ -38,7 +38,7 @@ This course will be conducted primarily through Github. Materials will be posted
 
 		$ git remote --v
 
-11. Say outloud to yourself 100 times repeatedly, I will never, ever run `git push upstream`. This is critically important. We are using free tier Github which doesn't come with branch protection. If you push your code to the upstream remote, you are pushing your code to the main repository where everyone can see it. Don't do this! There are ways to explictely prevent this, but to make life easy for the instructor and the TAs, let's use the honor system.  
+11. Say outloud to yourself 100 times repeatedly, I will never, ever run `git push upstream`. This is critically important. We've disabled this, but someone knowledgeable in git could easily get around this. Don't do this please!
 
 12. Next, push the cloned repository up to your remote:
 
