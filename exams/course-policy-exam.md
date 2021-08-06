@@ -1,5 +1,10 @@
 # ANLY-580 Course Policy and Expectations Exam
 
+The purpose of this exam is to ensure that we are all on the same page with respect to course expectations. To submit this test, either enter your answers directly in this document, or upload a separate file called `course-policy-exam-solutions` in this folder. 
+
+*Note: You will need to complete the [Github onboarding instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) in order to submit this exam.*
+
+#
 ### Format: takehome, open book, individual
 
 ### Grade: 5%
@@ -10,7 +15,8 @@
 
 ### Name:
 
-### Questions (true/false)
+#
+##  Questions (true/false)
 
 1. I have successfully completed the Github onboarding instructions, and acknowledge that I shall never run the command `git push upstream` or `git push upstream main` against the main course repository.
 
