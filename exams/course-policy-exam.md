@@ -20,8 +20,10 @@
 
 4. Lab particiption is required, and code must be checked in by 11:59PM on the day of the lab.
 
-5. All course materials are found at [https://github.com/chrislarson1/ANLY-580-FALL-2021.git](https://github.com/chrislarson1/ANLY-580-FALL-2021.git).
+5. Lab code is graded on a complete/incomplete scale.
 
-6. If I use a Windows operating system I should strongly consider installing VirtualBox such that I can interact with the course on a unix system.
+6. All course materials are found at [https://github.com/chrislarson1/ANLY-580-FALL-2021.git](https://github.com/chrislarson1/ANLY-580-FALL-2021.git).
 
-7. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
+7. If I use a Windows operating system I should strongly consider installing VirtualBox such that I can interact with the course on a unix based operating system.
+
+8. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
