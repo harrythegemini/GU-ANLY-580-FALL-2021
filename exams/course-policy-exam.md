@@ -33,3 +33,5 @@ The purpose of this exam is to ensure that we are all on the same page with resp
 7. If I use a Windows operating system I should strongly consider installing VirtualBox such that I can interact with the course on a unix based operating system.
 
 8. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
+
+9. As per Georgetown policy, I will keep my fork of this repository *private* permenantly, and not share course content any my work with others. 
