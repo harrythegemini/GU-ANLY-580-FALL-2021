@@ -1,6 +1,6 @@
 # ANLY-580 Placement Exam
 
-The purpose of this exam is for self study and getting you up to speed with some of the underlying concepts used in machine learning and NLP. You may be familiar with them already, and if so great. If not, put in the effort to learn them; being familiar with these concepts will improve your ability to solve real problems. Feel free to use definitions from Wikipedia to aid in this self study, but refrain from searching for answers directly. If you get stuck, feel free to form groups of no more than three.
+The purpose of this exam is for self study and getting you up to speed with some of the underlying concepts used in machine learning and NLP. Feel free to use definitions from Wikipedia to aid in this self study, but refrain from searching for answers directly. If you get stuck, feel free to form groups of no more than three.
 
 Github's markdown renderer does not support native Latex style math. When you pull this down you can view it locally using most IDEs (e.g., [VSCode](https://code.visualstudio.com/)). To submit this test, either enter your answers directly in this document, or upload a separate file called `placement-exam-solutions` in this folder. 
 
