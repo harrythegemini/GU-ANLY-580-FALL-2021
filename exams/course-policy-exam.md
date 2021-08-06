@@ -34,4 +34,4 @@ The purpose of this exam is to ensure that we are all on the same page with resp
 
 8. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
 
-9. As per Georgetown policy, I will keep my fork of this repository *private* permenantly, and not share course content any my work with others. 
+9. As per Georgetown policy, I will keep my fork of this repository permanently *private* (i.e., forever), and not share course content any my work with others. I understand that the course instructor has written a bot that will check this daily.
