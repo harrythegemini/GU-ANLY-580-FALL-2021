@@ -30,7 +30,7 @@ This course will consist of 14 2.5 hour classes. Each class is broken down into 
 |   Component       | Weight |         Description         |
 | :-----------:     | :----: | :-------------------------: |
 | Entrance Exam     |    5%  |   Take home, individual     |   
-| Placement Exam    |    5%  |   Take home, groups <= 4    | 
+| Placement Exam    |    5%  |   Take home, groups <= 3    | 
 | Assignment 1      |   10%  |   individual                | 
 | Assignment 2      |   10%  |   individual                | 
 | Assignment 3      |   10%  |   individual                | 
