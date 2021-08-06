@@ -1,18 +1,18 @@
 # Github Setup
 
-This course will be conducted primarily through Github. Materials will be posted to Canvas, but please treat *this* repository as your single source of truth, with the syllabus (README.md) as your starting point. It will contain up-to-date links to all lectures, labs, assignments, exams, and reading material. To submit assignments, exams, and projects, each student will create a private fork of this repository and then add the instructor as a *collaborator*. Please follow the instructions below to get setup. If you are a Windows user, it is highly recommended that you install VirtualBox and interact with this course on a unix based OS; all examples involving shell commands are unix specific. Also note that these instructions are specific to those running MacOS; it is assumed that if you're running Linux you can translate these instructions to your specific distribution (contact the instructor if you need assistance).
+This course will be conducted primarily through Github. Materials will be posted to Canvas, but please treat *this* repository as your source of truth, with the syllabus (README.md) as your starting point. It will contain up-to-date links to all lectures, labs, assignments, exams, and reading material. To submit assignments, exams, and projects, each student will create a private fork of this repository and then add the instructor as a *collaborator*. Please follow the instructions below to get setup. If you are a Windows user, we recommend you install VirtualBox and interact with this course on a unix based OS; all examples involving shell commands are unix specific. Also note that these instructions are specific to those running MacOS; it is assumed that if you're running Linux you can translate these instructions to your specific distribution (contact the instructor if you need assistance).
 
-1. Determine if you have brew installed
+1. Determine if you have the package manager Homebrew installed
 
-    	$ brew --version
+    	$ which brew
 
-    If this results in an error you will need to install it (step 2). If the above command returns a version, skip to step 3.
+    If this command does not return anything you will need to install brew (step 2). If the above command returns a filepath, skip to step 3.
 
 2. Install Homebrew (MacOS package manager):
 
     	$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-3. Install git via Homebrew
+3. If you don't have git installed (to check issue `$ which git`), install git via Homebrew
 
     	$ brew update && brew install git
     	
