@@ -54,4 +54,4 @@ Github's markdown renderer does not support native Latex style math. When you pu
 
 4. (4 pts) Consider the covariance matrix, $\Sigma \in \mathbb{R}^{N \times N}$ of a random vector $X \in \mathbb{R}^{M \times N}$. Show that $\Sigma$ is a [positive semidefnite matrix](https://en.wikipedia.org/wiki/Definite_matrix), and then explain what this means.
 
-    *Hint: The covariance of $X$ is defined as $\Sigma = \mathbb{E}\big[ \big( X - \mathbb{E}_{X}[X] \big)\big( X - \mathbb{E}_{X}[X] \big)^{T} \big]$*
+    *Note: The covariance of $X$ is defined as $\Sigma = \mathbb{E}\big[ \big( X - \mathbb{E}_{X}[X] \big)\big( X - \mathbb{E}_{X}[X] \big)^{T} \big]$*
