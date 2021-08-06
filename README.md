@@ -5,9 +5,9 @@
 
 #### Term: Fall 2021
 
-#### Section 1: Mondays 6:30-9pm (Remote)
+#### Section 1: Mondays 6:30-9pm EST (Remote)
 
-#### Section 2: Thursdays 3:30-6pm (Intercultural Center Rm.115)
+#### Section 2: Thursdays 3:30-6pm EST (Intercultural Center Rm.115)
 
 #### Prerequisites: ANLY-501 Machine Learning
 
