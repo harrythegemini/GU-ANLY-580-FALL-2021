@@ -15,18 +15,15 @@
 ## Course Description
 Natural language processing (NLP) is a critical component of modern information systems. The confluence of deep learning, massive datasets, and hardware accelerators has resulted in systems that approach and in some cases exceed human level performance on benchmark language tasks. This course explores three principal questions: 1) how do we frame language understanding as a tractable statistical inference problem, 2) what are the current state-of-the-art modeling approaches, and 3) how are NLP systems designed and evaluated. In exploring these questions the course exposes students to the foundational math, implementation methods, practical applications, and current research directions in the field. The course will focus less on task-specific feature engineering in order to provide a more complete exposition of the methods that have proven to be most successful in real world applications such as web search, recommender systems, voice and text based chatbots, and machine translation. This course assumes a basic understanding of linear algebra, probability theory, first order optimization methods, and neural networks.
 
-<br>
 
 ## Reference Texts
 1. <a href="https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf">Jacob Eisenstein. Natural Language Processing</a>
 2. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Dan Jurafsky, James H. Martin. Speech and Language Processing (3rd ed. draft)</a>
 
-<br>
 
 ## Course Structure
 This course will consist of 14 2.5 hour classes. Each class is broken down into a lecture (~1 hr) and a lab (~1.5 hrs). Both lecture and lab attendance is required. Some labs will require code to be submitted. Lab code must be checked in no later than 11:59 pm EST the day of lab. See the [Github instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) for how to do this.
 
-<br>
 
 ## Course Grade
 
@@ -40,12 +37,10 @@ This course will consist of 14 2.5 hour classes. Each class is broken down into 
 | Final Project     |   40%  |   Groups <= 4               | 
 | Lab participation |   20%  |   --                        | 
 
-<br>
 
 ## Using Github
 All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md).
 
-<br>
 
 ## Course Schedule
 
