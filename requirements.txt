@@ -1,8 +1,10 @@
+datasets
 gensim
 jupyterlab
 mxnet
 plotly==5.1.0
 scipy
+sklearn
 spacy
 tensorflow
 torch
