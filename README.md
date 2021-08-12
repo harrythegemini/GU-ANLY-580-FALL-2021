@@ -26,7 +26,7 @@ This course will consist of 14 2.5 hour classes. Each class will have lecture an
 
 
 ## Course Policy
-Students are expected to adhere to all policies in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and be aware of the policies laid out in the [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter). We take these matters seriously. All work submitted in this class is expected to be original. In the case of code submissions, it is very common to use subroutines written by other people to perform specific tasks; this is OK but please comment your code with links when doing so. Upon entering this class each student is required to acknowledge that they are aware of all course policies in the [course policy exam](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/exams/course-policy-exam.md).
+Students are expected to adhere to all policies in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and be aware of the policies laid out in the [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter). We take these matters seriously. All work submitted in this class is expected to be original. In the case of code submissions, it is very common to use subroutines written by other people to perform specific tasks; this is OK but please comment your code with links when doing so. Upon entering this class each student is required to acknowledge that they are aware of all course policies by completing the [course policy exam](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/exams/course-policy-exam.md).
 
 
 ## Course Grade
