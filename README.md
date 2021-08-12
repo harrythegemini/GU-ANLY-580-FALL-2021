@@ -25,7 +25,7 @@ Students are expected to adhere to all policies in the [Georgetown Honor System 
 
 
 ## Course Grade
-The course grade is broken down below. With the exception of code submissions for labs, exams and assignments turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester. The goal is for you to spend the time necessary to learn how to implement the models/algorithms that we learn throughout the course. Lab participation will be graded primarily on the axis of a) participation during the lab, and b) quality of the code / answers to the tasks in each lab. Incomplete tasks will not be penalized provided effort was made (which we can glean from the questions you ask and your git commit history). The grading rubrik for the final project will be included in the description released during Lab-07. Attendance is highly recommended for students in section II.
+The course grade is broken down below. With the exception of code submissions for labs, exams and assignments turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester. The goal is for you to spend the time necessary to learn how to implement the models/algorithms that we learn throughout the course. Lab participation will be graded primarily on the axis of a) participation during the lab, and b) quality of the code / answers to the tasks in each lab. Incomplete tasks will not be penalized provided effort was made (which we can glean from the questions you ask and your git commit history). The grading rubrik for the final project will be included in the description released during Lab-07. In person attendance is highly recommended for students in section II.
 
 |   Component        | Weight |         Description         |
 | :-----------:      | :----: | :-------------------------: |
@@ -34,12 +34,12 @@ The course grade is broken down below. With the exception of code submissions fo
 | Assignment 2       |   10%  |   individual                | 
 | Assignment 3       |   10%  |   individual                |
 | Assignment 4       |   10%  |   individual                |  
-| Final Project      |   35%  |   groups <= 4               | 
+| Final Project      |   35%  |   groups of 3               | 
 | Lab participation  |   20%  |   individual                | 
 
 
 ## Github Onboarding
-All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md).
+Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md).
 
 
 ## Course Schedule
