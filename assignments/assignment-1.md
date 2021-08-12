@@ -18,6 +18,8 @@ To submit this assignment, either enter your answers directly in the `assignment
 
 **Your name**:
 
+**Your NET ID**:
+
 #
 ## Problems
 

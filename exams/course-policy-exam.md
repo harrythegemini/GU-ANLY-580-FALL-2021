@@ -5,15 +5,18 @@ The purpose of this exam is to ensure that we are all on the same page with resp
 *Note: You will need to complete the [Github onboarding instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md) in order to submit this exam.*
 
 #
-### Format: takehome, open book, individual
+**Format**: takehome, open book, individual
 
-### Grade: 5%
+**Grade**: 5%
 
-### Due dates: 
+**Due dates**:
+ 
  - Section I: Aug 29
  - Section II: Sep 01
 
-### Name:
+**Your name**:
+
+**Your NET ID**: 
 
 #
 ##  Questions (true/false)
@@ -35,3 +38,7 @@ The purpose of this exam is to ensure that we are all on the same page with resp
 8. All of my submissions will be made by pushing code/exams/assignments to my own fork of the course repository.
 
 9. As per Georgetown policy, I will keep my fork of this repository permanently *private* (i.e., forever), and not share course content and work with others. I understand that the course instructor has written a bot that will check this daily.
+
+10. I have understand the Georgetown academic integrity policies as laid out in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and that those policies apply to this class.
+
+11. I understand the policies pertaining to [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter), and that I pledge to do my part in making sure that this course provides a safe and inclusive working environment for everyone.
