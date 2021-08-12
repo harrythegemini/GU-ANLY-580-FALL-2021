@@ -1,6 +1,5 @@
 # ANLY-580 Natural Language Processing
 
-
 #### Instructor: Chris Larson
 
 #### Term: Fall 2021
@@ -21,28 +20,25 @@ Natural language processing (NLP) is a critical component of modern information 
 2. <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Dan Jurafsky, James H. Martin. Speech and Language Processing (3rd ed. draft)</a>
 
 
-## Course Structure
-This course will consist of 14 2.5 hour classes. Each class will have lecture and lab components. Attendance is highly recommended for students in section II. The first lab will cover [Github onboarding instructions](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md).
-
-
-## Course Policy
-Students are expected to adhere to all policies in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and be aware of the policies laid out in the [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter). We take these matters seriously. All work submitted in this class is expected to be original. In the case of code submissions, it is very common to use subroutines written by other people to perform specific tasks; this is OK but please comment your code with links when doing so. Upon entering this class each student is required to acknowledge that they are aware of all course policies by completing the [course policy exam](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/exams/course-policy-exam.md).
+## Course Policies
+Students are expected to adhere to all policies in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and be aware of [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter). We take both of these matters seriously. All work submitted in this class is expected to be original. In the case of code submissions, it is very common to use subroutines written by other people to perform specific tasks; this is OK but please comment your code appropriately. Upon entering this class each student is required to acknowledge that they are aware of all course policies by completing the [course policy exam](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/exams/course-policy-exam.md).
 
 
 ## Course Grade
+The course grade is broken down below. With the exception of code submissions for labs, exams and assignments turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester. The goal is for you to spend the time necessary to learn how to implement the models/algorithms that we learn throughout the course. Lab participation will be graded primarily on the axis of a) participation during the lab, and b) quality of the code / answers to the tasks in each lab. Incomplete tasks will not be penalized provided effort was made (which we can glean from the questions you ask and your git commit history). The grading rubrik for the final project will be included in the description released during Lab-07. Attendance is highly recommended for students in section II.
 
 |   Component        | Weight |         Description         |
 | :-----------:      | :----: | :-------------------------: |
-| Course Policy Exam |    5%  |   Take home, individual     |   
-| Assignment 1       |   10%  |   individual                | 
+| Course Policy Exam |    5%  |   individual                |   
+| Assignment 1       |   10%  |   individual or groups <= 3 | 
 | Assignment 2       |   10%  |   individual                | 
 | Assignment 3       |   10%  |   individual                |
 | Assignment 4       |   10%  |   individual                |  
-| Final Project      |   40%  |   Groups <= 4               | 
-| Lab participation  |   15%  |   --                        | 
+| Final Project      |   35%  |   groups <= 4               | 
+| Lab participation  |   20%  |   individual                | 
 
 
-## Using Github
+## Github Onboarding
 All course materials will be distributed through **this** repository: https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git.  Students will submit assignments, exams, and projects to private forks of this repository which the instructor will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md).
 
 
@@ -70,4 +66,5 @@ All course materials will be distributed through **this** repository: https://gi
 |    Nov 22      |     Nov 11   | 12 | **Dialogue Systems: Part I** <br> - Dialogue management <br> - Entity extraction, slot filling <br> - Policy based dialogue <br> **Lab** <br> - Introduction to Rasa <br> [<a href="">Slides</a>] [<a href="">Code</a>]    | Suggested Reading: <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chp 24</a>] <br> [<a href="https://arxiv.org/pdf/1712.05181.pdf">Bocklisch et al., 2017</a>]             |
 |    Nov 29      |     Nov 18   | 13  | **Dialogue Systems: Part II** <br> *Introduction to Jarvis* <br> Guest: Oluwatobi Olabiyi <br> Senior Research Manager, NVIDIA <br> **Lab** <br> - Project work <br> [<a href="">Slides</a>]  	|     |
 |    Dec 06      |     Dec 02   | 14 | **NLP System Design** <br> - REST, HTTP, RPCs <br> - Containerization & cloud deployment <br> - Production model serving  <br> **Lab** <br> - Deploy an embedding service on a VM<br> [<a href="">Slides</a>] [<a href="">Code</a>]     |        |
+| Dec 08 | Dec 08 |  | All lab code/notebooks due **11:59pm EST** | |
 | TBD    | TBD    |  | Final project poster session & demos | |
