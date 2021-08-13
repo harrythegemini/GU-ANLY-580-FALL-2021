@@ -25,7 +25,7 @@ Students are expected to adhere to all policies in the [Georgetown Honor System 
 
 
 ## Course Grade
-The course grade is broken down in the table below. With the exception of lab tasks, all other work (assignments and the project) turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester, however, this flexibility is not license to fall behind. The goal is for you to spend the time that is necessary to familiarize yourself with the models, algorithms, and design patterns covered in this course, not test how quickly you can learn the material on a cursory level. Lab participation will be assesed not only on in-class participation but on the quality of code and answers submitted for each lab. Incomplete tasks will not necessarily be penalized provided that effort was made to complete them (which we can glean from your git commit history and the questions you ask). The grading rubrik for the final project will be included in the project description released during Lab-07. 
+The course grade is broken down in the table below. With the exception of labs, all other work (assignments and the project) turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester, however, this flexibility is not license to fall behind. The goal is for you to spend the time that is necessary to familiarize yourself with the models, algorithms, and design patterns covered in this course, not test how quickly you can learn the material on a cursory level. Lab participation will be assesed not only on in-class participation but on the quality of code and answers submitted for each lab. Incomplete tasks will not necessarily be penalized provided that effort was made to complete them (which we can glean from your git commit history and the questions you ask). The grading rubrik for the final project will be included in the project description released during Lab-07. 
 
 |   Component        | Weight |         Description         |
 | :-----------:      | :----: | :-------------------------: |
@@ -33,9 +33,9 @@ The course grade is broken down in the table below. With the exception of lab ta
 | Assignment 1       |   10%  |   individual or groups <= 3 | 
 | Assignment 2       |   10%  |   individual                | 
 | Assignment 3       |   10%  |   individual                |
-| Assignment 4       |   10%  |   individual                |  
-| Final Project      |   35%  |   groups of 3               | 
-| Lab participation  |   20%  |   individual                | 
+| Assignment 4       |   10%  |   individual                |
+| Labs               |   25%  |   individual                | 
+| Final Project      |   30%  |   groups of 3               | 
 
 
 ## Github Onboarding
