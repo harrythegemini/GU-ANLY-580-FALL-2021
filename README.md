@@ -27,18 +27,22 @@ Students are expected to adhere to all policies in the [Georgetown Honor System 
 ## Course Grade
 The course grade is broken down in the table below. With the exception of labs, all other work (assignments, quizzes, and the project) turned in more than 24 hours late will be assessed a one-time 15% penalty. Code submissions for labs are due at the end of the semester, however, this flexibility is not license to fall behind. The goal is for you to spend the time that is necessary to familiarize yourself with the models, algorithms, and design patterns covered in this course, not test how quickly you can learn the material on a cursory level. Each lab will be graded on a complete/incomplete basis. Incomplete lab tasks will not necessarily be penalized provided that effort was made to complete them (which we can glean from your git commit history and the questions you ask). The rubrik for the final project will be included in the project description released during Lab-07. 
 
-|   Component   | Weight |    Format    | 
-| :-----------: | :----: | :----------: |
-| [Quiz 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/quizzes/quiz-1.md) | 3% |   individual  | 
-| [Quiz 2]() | 4% | individual |
-| [Quiz 3]() | 4% | individual |
-| [Quiz 4]() | 4% | individual |
-| [Assignment 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-1.pdf) |   10%  | groups <= 3 |
-| [Assignment 2]() | 10% | individual |
-| [Assignment 3]() | 10% | individual |
-| [Assignment 4]() | 10% | individual |
-| [Labs](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/labs) |   20%  |   individual |
-| [Final Project]() | 25% | groups of <= 3 |
+|   Component   | Weight |    Format    |   Section I Due Date   |  Section II Due Date   | 
+| :-----------: | :----: | :----------: | :--------------------: | :--------------------: |
+| [Quiz 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/quizzes/quiz-1.md) | 3% |   individual  | Aug 29 | Sep 01 |
+| [Quiz 2]() | 4% | individual | Sep 19 | Sep 15 |
+| [Quiz 3]() | 4% | individual | Nov 21 | Nov 10 |
+| [Quiz 4]() | 4% | individual | Dec 05 | Dec 01 |
+| [Assignment 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-1.pdf) |   10%  | groups <= 3 | Sep 26 | Sep 22 |
+| [Assignment 2]() | 10% | individual | Oct 17 | Oct 06 |
+| [Assignment 3]() | 10% | individual | Oct 30 | Oct 19 |
+| [Assignment 4]() | 10% | individual | Nov 14 | Nov 03 |
+| [Labs](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/labs) |   20%  |   individual | Dec 08 | Dec 08 |
+| [Final Project]() | 25% | groups of <= 3 | Dec 08 | Dec 08 |
+
+***Note**: All submissions are due 11:59pm EST on the dates listed. Each of these due dates are listed on the course schedule.*
+
+***Important**: Lab-01 only covers onboarding related material, and is due Aug 29 for Section 1, and Sep 02 for Section 2.*
 
 
 ## Github Onboarding
