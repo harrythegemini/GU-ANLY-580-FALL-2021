@@ -13,9 +13,9 @@ Navigate to the [Python environment setup page](https://github.com/chrislarson1/
 
     $ pip install -r requirements.txt
 
-## Task I: `jupyterlab-starter.ipynb`
+## Task I: `lab-01.ipynb`
 To complete this task you'll need to complete two subtasks: 1) run the first block in the jupyter notebook to ensure that your packages were installed successfully and that IPython is pointed at the correct Python binary, and 2) complete the function `linear_transformation()` by implementing a matrix multiplication between `W` and `X`. When you're finished completing the notebook, save the file and push it up to github using the following commands:
 
-    $ git add lab-01/jupyterlab-starter.ipynb
+    $ git add lab-01/lab-01.ipynb
     $ git commit -m 'completed lab-01, task 1'
     $ git push origin
