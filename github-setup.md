@@ -1,6 +1,6 @@
 # Github Setup
 
-This course will be conducted through Canvas and Github. Materials will be posted to both. To submit assignments, lab task solutions, and the project, each student will create a private fork of this repository and add the instructor as a *collaborator*. Please follow the instructions below to get setup. If you are a Windows user, we recommend you install VirtualBox and interact with this course on a unix based OS; all examples involving shell commands are unix specific. Also note that these instructions are specific to those running MacOS; it is assumed that if you're running Linux you can translate these instructions to your specific distribution (contact the instructor if you need assistance).
+This course will be conducted through Canvas and Github. Materials will be posted to both. To submit assignments, quizzes, lab solutions, and the project, each student will create a private fork of this repository and add the instructor as a *collaborator*. Please follow the instructions below to get setup. If you are a Windows user, we recommend you install VirtualBox and interact with this course on a unix based OS; all examples involving shell commands are unix specific. Also note that these instructions are specific to those running MacOS; it is assumed that if you're running Linux you can translate these instructions to your specific distribution (contact the instructor if you need assistance).
 
 1. Determine if you have the package manager Homebrew installed
 
