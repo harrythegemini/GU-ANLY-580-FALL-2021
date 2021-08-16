@@ -69,7 +69,7 @@ Students will submit assignments, labs, and the project to private forks of this
 |    Nov 10      |     Nov 10   |  | Project proposals due **11:59pm EST** <br> Quiz 3 Due **11:59pm EST** | [[Project description link]()] <br> [[Quiz Link]()] |
 |    Nov 22      |     Nov 11   | 12 | **Dialogue Systems: Part I** <br> - Dialogue management <br> - Entity extraction, slot filling <br> - Policy based dialogue <br> **Lab** <br> - Introduction to Rasa <br> [[Slides]()] [[Code]()]    | Suggested Reading: <br> [<a href="https://web.stanford.edu/~jurafsky/slp3/ed3book_dec302020.pdf">Jurafsky & Martin, Chp 24</a>] <br> [<a href="https://arxiv.org/pdf/1712.05181.pdf">Bocklisch et al., 2017</a>]             |
 |    Nov 29      |     Nov 18   | 13  | **Dialogue Systems: Part II** <br> *Introduction to Jarvis* <br> Guest: Oluwatobi Olabiyi <br> Senior Research Manager, NVIDIA <br> **Lab** <br> - Project work <br> [[Slides]()] | |
-|    Dec 05      |     Dec 01   |  | Quiz 4 (Extra credit) due **11:59pm EST** | [[Quiz link]()] |
+|    Dec 05      |     Dec 01   |  | Quiz 4 due **11:59pm EST** | [[Quiz link]()] |
 |    Dec 06      |     Dec 02   | 14 | **NLP System Design** <br> - REST, HTTP, RPCs <br> - Containerization & cloud deployment <br> - Production model serving  <br> **Lab** <br> - Deploy an embedding service on a VM<br> [[Slides]()] [[Code]()]  |   |
 | Dec 08 | Dec 08 |  | All lab code/notebooks due **11:59pm EST** <br> Final projects due **11:59pm EST** | |
 | TBD    | TBD    |  | Final project poster session & demos | |
