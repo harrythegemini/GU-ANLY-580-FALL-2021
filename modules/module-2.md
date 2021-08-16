@@ -44,8 +44,8 @@ You will leave this module with the following skills / knowledge:
 ### Due Dates
 
 - Assignment 2
-    - Section 1: Oct 30 11:59pm EST
-    - Section 2: Oct 19 11:59pm EST
+    - Section 1: Oct 17 11:59pm EST
+    - Section 2: Oct 06 11:59pm EST
 
 - Labs 4,5
     - Section 1: Dec 08 11:59pm EST

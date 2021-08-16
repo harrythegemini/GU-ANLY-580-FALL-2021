@@ -36,20 +36,20 @@ You will leave this module with the following skills / knowledge:
 ### Due Dates
 
 - Quiz 1 (covers course policy, non-technical)
-    - Section 1: Sep 01 11:59pm EST
-    - Section 2: Aug 29 11:59pm EST
+    - Section 1: Aug 29 11:59pm EST
+    - Section 2: Sep 01 11:59pm EST
 
 - Quiz 2
     - Section 1: Sep 19 11:59pm EST
     - Section 2: Sep 15 11:59pm EST
 
 - Assignment 1
-    - Section 1: Oct 17 11:59pm EST
-    - Section 2: Oct 06 11:59pm EST
+    - Section 1: Sep 26 11:59pm EST
+    - Section 2: Sep 22 11:59pm EST
 
 - Lab 1
-    - Section 1: Sep 01 11:59pm EST
-    - Section 2: Aug 29 11:59pm EST
+    - Section 1: Aug 29 11:59pm EST
+    - Section 2: Sep 01 11:59pm EST
 
 - Labs 2,3
     - Section 1: Dec 08 11:59pm EST
