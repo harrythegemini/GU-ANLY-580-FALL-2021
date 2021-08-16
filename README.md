@@ -46,7 +46,7 @@ The course grade is broken down in the table below. With the exception of labs, 
 
 
 ## Github Onboarding
-Students will submit assignments, labs, quizzes, and the project to private forks of this repository which the instructor and TAs will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md). If you are viewing this on canvas, you can view these instructions in `Module-1: github-setup.pdf`.
+Students will submit assignments, labs, quizzes, and the project to private forks of this repository which the instructor and TAs will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md). If you are viewing this on canvas, you can view these instructions in `Module-1: github-setup.html`.
 
 
 ## Course Schedule
