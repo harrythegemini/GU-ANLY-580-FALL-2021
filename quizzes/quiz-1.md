@@ -1,6 +1,6 @@
-# Quiz 0: ANLY-580 Course Policy and Expectations
+# Quiz 1: ANLY-580 Course Policy and Expectations
 
-The purpose of this quiz is to ensure that we are all on the same page with respect to course expectations. To submit this test, either enter your answers directly in this document, or upload a separate file called `quiz-0-solutions` in this folder.
+The purpose of this quiz is to ensure that we are all on the same page with respect to course expectations. To submit this test, either enter your answers directly in this document, or upload a separate file called `quiz-1-solutions` in this folder.
 
 *Note*: This quiz will be submitted through Canvas. 
 
