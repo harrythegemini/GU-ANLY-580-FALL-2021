@@ -1,6 +1,6 @@
 # Module 2: Distributional Semantics
 
-In this module we will use unsupervised feature learning approaches to model similarity between pieces of text, whether it be single words or sequences of words, and apply them to information retrieval and topic modeling. 
+In this module we will use unsupervised feature learning approaches to model similarity between pieces of text, and apply them to information retrieval and topic modeling.
 
 ### Module Topics
 
