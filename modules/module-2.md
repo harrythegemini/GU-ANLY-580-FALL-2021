@@ -8,7 +8,7 @@ In this module we will use unsupervised feature learning approaches to model sim
 
 2. Semantic relevance, informativeness, Zipf's Law, and the TF-IDF scoring method
 
-3. Low-rank factorization approaches
+3. Low-rank matrix factorization
 
 4. Topic modeling
 
@@ -29,7 +29,7 @@ You will leave this module with the following skills / knowledge:
 
 3. Understand matrix factorization using SVD, and be able to implement it numerically
 
-4. Understand the modeling approaches/assumptions behind LDA and NMF topic modeling techniques, and be able to apply them to topic extraction from raw text.
+4. Understand the modeling approaches/assumptions behind LSA, pLSA, LDA, and NMF topic modeling techniques, and be able to apply them to topic extraction from raw text.
 
 5. Understand and be able to recite the distributional hypothesis
 
