@@ -28,7 +28,7 @@ This course will be conducted through Canvas and Github. Materials will be poste
 
 8. Next we are going to rename the remote branch `origin` to `upstream`:
 
-		$ git remote rename upstream origin && git remote set-url --push upstream anly-580
+		$ git remote rename origin upstream && git remote set-url --push upstream anly-580
 
 9. Now recreate the origin remote and point it to your private github repo, replacing `<YOUR-GITHUB-HANDLE>` with your Github username:
 
