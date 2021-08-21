@@ -44,7 +44,7 @@ This course will be conducted through Canvas and Github. Materials will be poste
 
 		$ git push -u origin
 
-13. Give the instructor access to your repository by going to your repo in the github UI and clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`.
+13. Give the instructor and TAs access to your repository by going to your repo in the github UI and clicking `Settings -> Manage Access -> Invite a Collaborator` and adding `chrislarson1`, `ireneyunfei`, and `DataF18` as collaborators.
 
 # 
 ##  Syncing your fork
