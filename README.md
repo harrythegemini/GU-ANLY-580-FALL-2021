@@ -25,7 +25,16 @@ Students are expected to adhere to all policies in the [Georgetown Honor System 
 
 
 ## Course Grade
-The course grade is broken down in the table below. The course grade consists of 1000 total pts.
+The course grade is broken down in the table below. The course grade consists of 1000 total pts. The grading scale and components are listed in the tables below.
+
+| Score | Letter Grade |
+|:-----:|:-----:|
+| 91.5 $\leq$ score | A |
+| 89.5 $\leq$ score $<$ 91.5 | A- |
+| 87.99 $\leq$ score $<$ 89.5 | B+ |
+| 81.5 $\leq$ score $<$ 87.99 | B |
+| 79.5 $\leq$ score $<$ 81.5 | B- |
+
 
 |   Component   | Weight |    Format    |   Section I Due Date   |  Section II Due Date   | 
 | :-----------: | :----: | :----------: | :--------------------: | :--------------------: |
@@ -44,7 +53,8 @@ The course grade is broken down in the table below. The course grade consists of
 
 **Lab Grading**: Labs are due at the end of the semester (except for Lab-01, which only covers onboarding related material and is due Aug 29 for Section 1, and Sep 02 for Section 2). This flexibility is not license to fall behind; the goal is for you to spend the time that is necessary to familiarize yourself with the models, algorithms, and design patterns covered in this course, not test how quickly you can learn the material on a cursory level. There will be 10 graded labs each worth 2%, and one extra credit lab. Each lab task will be graded on a complete/incomplete basis, however incomplete tasks will not necessarily be penalized provided that effort was made to complete them (which we can glean from your git commit history and the questions you ask).
 
-**Final Project Grading**: The rubrik for the final project will be included in the project description released during Lab-07. 
+**Final Project Grading**: The rubrik for the final project will be included in the project description released during Lab-07.
+
 
 
 ## Github Onboarding
