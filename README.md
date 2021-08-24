@@ -56,9 +56,12 @@ The course grade is broken down in the table below. The course grade consists of
 **Final Project Grading**: The rubrik for the final project will be included in the project description released during Lab-07.
 
 
-
 ## Github Onboarding
 Students will submit assignments, labs, quizzes, and the project to private forks of [this repository](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021.git) which the instructor and TAs will have access to. Setup instructions are [here](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/github-setup.md). If you are viewing this on canvas, you can view these instructions in `Module-1: github-setup.html`.
+
+
+## Box
+Students of this course will have access to recorded lectures and other large files via Georgetown's Box account, which is free for Faculty and Students. The course Box link is [here](https://georgetown.box.com/s/x8aw4tekp92ip4s5qf2l5hgl3hca9trg).
 
 
 ## Course Schedule
