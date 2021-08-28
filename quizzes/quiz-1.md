@@ -10,8 +10,8 @@ The purpose of this quiz is to ensure that we are all on the same page with resp
 
 **Due dates**:
  
- - Section I: Aug 29
- - Section II: Sep 01
+ - Section I: Sep 08
+ - Section II: Sep 08
 
 **Your name**:
 
