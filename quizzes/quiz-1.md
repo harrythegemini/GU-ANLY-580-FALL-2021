@@ -24,16 +24,16 @@ The purpose of this quiz is to ensure that we are all on the same page with resp
 
 2. I have successfully setup my Python environment on my local machine using the setup instructions as needed, and acknowledge that I know how to submit assignments and project work through my personal fork of the course github repository. true
 
-3. Assignments can be checked in up to 24 hours late with no penalty, and will incur a one-time 15% penalty thereafter.
+3. Assignments can be checked in up to 24 hours late with no penalty, and will incur a one-time 15% penalty thereafter. true
 
-4. Incomplete tasks will not be penalized provided effort was made (which we can glean from the questions you ask and your git commit history)?
+4. Incomplete tasks will not be penalized provided effort was made (which we can glean from the questions you ask and your git commit history)? true
 
-5. All course materials can be found on Canvas and on [GitHub](https://github.com/chrislarson1/ANLY-580-FALL-2021.git).
+5. All course materials can be found on Canvas and on [GitHub](https://github.com/chrislarson1/ANLY-580-FALL-2021.git). true
 
-6. If I use a Windows operating system I should strongly consider installing VirtualBox such that I can interact with the course on a unix based operating system.
+6. If I use a Windows operating system I should strongly consider installing VirtualBox such that I can interact with the course on a unix based operating system. true
 
-7. As per Georgetown policy, I will keep my fork of this repository permanently *private* (i.e., forever), and not share course content and work with others. I understand that the course instructor has written a bot that will check this daily.
+7. As per Georgetown policy, I will keep my fork of this repository permanently *private* (i.e., forever), and not share course content and work with others. I understand that the course instructor has written a bot that will check this daily. true
 
-8. I have understand the Georgetown academic integrity policies as laid out in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and that those policies apply to this class.
+8. I have understand the Georgetown academic integrity policies as laid out in the [Georgetown Honor System Handbook](https://honorcouncil.georgetown.edu/system/policies/), and that those policies apply to this class. true
 
-9. I understand the policies pertaining to [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter), and that I pledge to do my part in making sure that this course provides a safe and inclusive working environment for everyone.
+9. I understand the policies pertaining to [Title IX/Sexual Misconduct](https://sexualassault.georgetown.edu/resourcecenter), and that I pledge to do my part in making sure that this course provides a safe and inclusive working environment for everyone. true
