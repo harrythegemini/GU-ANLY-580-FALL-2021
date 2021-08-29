@@ -20,9 +20,9 @@ The purpose of this quiz is to ensure that we are all on the same page with resp
 #
 ##  Questions (true/false)
 
-1. I have successfully completed the Github onboarding instructions, and acknowledge that I shall never run the command `git push upstream` or `git push upstream main` against the main course repository.
+1. I have successfully completed the Github onboarding instructions, and acknowledge that I shall never run the command `git push upstream` or `git push upstream main` against the main course repository. true
 
-2. I have successfully setup my Python environment on my local machine using the setup instructions as needed, and acknowledge that I know how to submit assignments and project work through my personal fork of the course github repository.
+2. I have successfully setup my Python environment on my local machine using the setup instructions as needed, and acknowledge that I know how to submit assignments and project work through my personal fork of the course github repository. true
 
 3. Assignments can be checked in up to 24 hours late with no penalty, and will incur a one-time 15% penalty thereafter.
 
