@@ -13,9 +13,9 @@ The purpose of this quiz is to ensure that we are all on the same page with resp
  - Section I: Sep 08
  - Section II: Sep 08
 
-**Your name**:
+**Your name**: Yihan Nie
 
-**Your NET ID**: 
+**Your NET ID**: yn205
 
 #
 ##  Questions (true/false)
