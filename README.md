@@ -42,7 +42,7 @@ The course grade is broken down in the table below. The course grade consists of
 | [Quiz 2]() | 4% | individual | Sep 19 | Sep 15 |
 | [Quiz 3]() | 4% | individual | Nov 21 | Nov 10 |
 | [Quiz 4]() | 4% | individual | Dec 05 | Dec 01 |
-| [Assignment 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-1.pdf) |   10%  | groups <= 3 | Sep 26 | Sep 26 |
+| [Assignment 1](https://github.com/chrislarson1/GU-ANLY-580-FALL-2021/blob/main/assignments/assignment-1.pdf) |  10%  | groups <= 3 | Sep 26 | Sep 22 |
 | [Assignment 2]() | 10% | individual | Oct 17 | Oct 06 |
 | [Assignment 3]() | 10% | individual | Oct 30 | Oct 19 |
 | [Assignment 4]() | 10% | individual | Nov 14 | Nov 03 |
