@@ -1,4 +1,5 @@
 datasets
+fasttext
 gensim
 jupyterlab
 mxnet
