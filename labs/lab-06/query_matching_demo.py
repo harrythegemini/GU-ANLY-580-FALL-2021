@@ -6,8 +6,7 @@ from virtex import RequestHandler
 from virtex import http_server
 
 # You will need to download a pretrained FastText model.bin file
-model_filepath = "../../.local/datasets/wiki/wiki.en.bin" 
-
+model_filepath = "en.compressed.bin"
 
 class MatchingService(RequestHandler):
 
