@@ -1,0 +1,520 @@
+# Lab 06: Query matching with FastText and Virtex
+
+
+## Launch a FastText service using the Virtex library in Python
+The purpose of this lab is to expose you to a few things:
+
+(a) The [FastText](https://fasttext.cc/docs/en/python-module.html) library in Python, which is a language modeling and text classification framework
+
+(b) The idea that NLP systems typically take on the form of microservices, wherein specific functions, such as computing embeddings, or computing similar words, are performed in isolation and accessed through HTTP requests (or other protocols such as gRPC).
+
+(c) The [Advanced Rest Client](https://install.advancedrestclient.com/install) (ARC), which allows you to make HTTP requests containing data (such as JSON) to an HTTP endpoint.
+
+(d) The [Virtex](https://pypi.org/project/virtex/) library, which provides a convenient way to expose your machine learning computation as a service over HTTP without having to write any networking code (see `query_matching_demo.py`, `query_matching_demo.sh`).
+
+
+## Task I (20 pts)
+
+1. Download a pretrained FastText model [here](https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz)
+
+2. Launch the FastText query matching service by running the following command from the terminal from within the `labs/lab-06/` directory:
+
+    $ ./query_matching_demo.sh
+
+3. Open your Advanced Rest Client application (you need to download it first)
+
+    a. Enter `http://0.0.0.0:580` into the Request URL bar
+    
+    b. In the Body content type field choose `application/json`
+
+    c. Click the body tab and enter `{"data": ["dogs", "bakery", "hose", "florida", "supreme"]}`
+
+    d. Explore FastText by changing the words and looking at the matches. Paste of a few of them below:
+
+    ``` 
+    # Query results go here
+    ``` 
+1. {"data": ["dogs", "bakery", "hose", "florida", "supreme"]}
+{
+  "data": [
+    [
+      [
+        0.8463466167449951,
+        "dog"
+      ],
+      [
+        0.7548211812973022,
+        "cats"
+      ],
+      [
+        0.7514287233352661,
+        "pooches"
+      ],
+      [
+        0.7483692169189453,
+        "canines"
+      ],
+      [
+        0.7462335228919983,
+        "doggies"
+      ],
+      [
+        0.7438126802444458,
+        "dogs.They"
+      ],
+      [
+        0.739346444606781,
+        "puppies"
+      ],
+      [
+        0.7355151772499084,
+        "dachshunds"
+      ],
+      [
+        0.7288153171539307,
+        "chihuahuas"
+      ],
+      [
+        0.726753830909729,
+        "dogs.I"
+      ]
+    ],
+    [
+      [
+        0.7964938282966614,
+        "bakeries"
+      ],
+      [
+        0.7613218426704407,
+        "patisserie"
+      ],
+      [
+        0.7505811452865601,
+        "bakeshop"
+      ],
+      [
+        0.7264891266822815,
+        "bakerys"
+      ],
+      [
+        0.725792646408081,
+        "Bakery"
+      ],
+      [
+        0.7235437631607056,
+        "bakery."
+      ],
+      [
+        0.680637776851654,
+        "cakery"
+      ],
+      [
+        0.6515960097312927,
+        "baker"
+      ],
+      [
+        0.6432774662971497,
+        "baked-goods"
+      ],
+      [
+        0.6391178369522095,
+        "bakeshops"
+      ]
+    ],
+    [
+      [
+        0.8412513136863708,
+        "hoses"
+      ],
+      [
+        0.7684431076049805,
+        "hose."
+      ],
+      [
+        0.7353079915046692,
+        "hose-"
+      ],
+      [
+        0.7157358527183533,
+        "hose.The"
+      ],
+      [
+        0.671838641166687,
+        "hose-end"
+      ],
+      [
+        0.6451444625854492,
+        "hoses."
+      ],
+      [
+        0.6359162926673889,
+        "Hose"
+      ],
+      [
+        0.6325336694717407,
+        "waterhose"
+      ],
+      [
+        0.6273407936096191,
+        "hose-pipe"
+      ],
+      [
+        0.6122273802757263,
+        "hosepipe"
+      ]
+    ],
+    [
+      [
+        0.7645120620727539,
+        "miami"
+      ],
+      [
+        0.7636050581932068,
+        "jacksonville"
+      ],
+      [
+        0.7601332664489746,
+        "florida."
+      ],
+      [
+        0.7465863823890686,
+        "orlando"
+      ],
+      [
+        0.7464682459831238,
+        "bradenton"
+      ],
+      [
+        0.7457274198532104,
+        "california"
+      ],
+      [
+        0.7410180568695068,
+        "tampa"
+      ],
+      [
+        0.7293574810028076,
+        "tallahassee"
+      ],
+      [
+        0.7260861992835999,
+        "floridas"
+      ],
+      [
+        0.7214460372924805,
+        "flordia"
+      ]
+    ],
+    [
+      [
+        0.7318336963653564,
+        "surpreme"
+      ],
+      [
+        0.5824477672576904,
+        "suprem"
+      ],
+      [
+        0.581596314907074,
+        "supreme."
+      ],
+      [
+        0.5496855974197388,
+        "ultimate"
+      ],
+      [
+        0.5467458367347717,
+        "reigns"
+      ],
+      [
+        0.52435702085495,
+        "presiding"
+      ],
+      [
+        0.5174142122268677,
+        "Supreme"
+      ],
+      [
+        0.5147457718849182,
+        "king-like"
+      ],
+      [
+        0.5136985182762146,
+        "peerless"
+      ],
+      [
+        0.5072036385536194,
+        "unquestionable"
+      ]
+    ]
+  ],
+  "error": null
+}
+
+
+
+2.{"data": ["Osaka", "music", "apple"]}
+{
+  "data": [
+    [
+      [
+        0.7211971282958984,
+        "nagoya"
+      ],
+      [
+        0.7142646312713623,
+        "shinjuku"
+      ],
+      [
+        0.7067408561706543,
+        "kansai"
+      ],
+      [
+        0.6959351301193237,
+        "ebisu"
+      ],
+      [
+        0.6923231482505798,
+        "tokyo"
+      ],
+      [
+        0.6919044852256775,
+        "fukuoka"
+      ],
+      [
+        0.6882509589195251,
+        "ikebukuro"
+      ],
+      [
+        0.6867712140083313,
+        "tokyo."
+      ],
+      [
+        0.6867071986198425,
+        "shinagawa"
+      ],
+      [
+        0.6835930943489075,
+        "kyushu"
+      ]
+    ],
+    [
+      [
+        0.7226119041442871,
+        "musics"
+      ],
+      [
+        0.7068628668785095,
+        "muisc"
+      ],
+      [
+        0.705992579460144,
+        "music.This"
+      ],
+      [
+        0.7031238675117493,
+        "music."
+      ],
+      [
+        0.6955491304397583,
+        "music.The"
+      ],
+      [
+        0.6900086402893066,
+        "music.It"
+      ],
+      [
+        0.6828652024269104,
+        "music.But"
+      ],
+      [
+        0.6771972179412842,
+        "music.Music"
+      ],
+      [
+        0.6697872281074524,
+        "music-"
+      ],
+      [
+        0.6653515100479126,
+        "music.Now"
+      ]
+    ],
+    [
+      [
+        0.7626952528953552,
+        "apples"
+      ],
+      [
+        0.7096020579338074,
+        "apple-"
+      ],
+      [
+        0.6859333515167236,
+        "apple.I"
+      ],
+      [
+        0.6751999855041504,
+        "apple."
+      ],
+      [
+        0.6751177906990051,
+        "non-apple"
+      ],
+      [
+        0.6668474674224854,
+        "pear"
+      ],
+      [
+        0.6600887179374695,
+        "apple.The"
+      ],
+      [
+        0.642498791217804,
+        "apples."
+      ],
+      [
+        0.6265839338302612,
+        "honeycrisp"
+      ],
+      [
+        0.610177755355835,
+        "apple-pear"
+      ]
+    ]
+  ],
+  "error": null
+}
+
+3.{"data": ["Shanghai", "Starbucks", "beer"]}
+{
+  "data": [
+    [
+      [
+        0.7796829342842102,
+        "beijing"
+      ],
+      [
+        0.7175302505493164,
+        "shenzhen"
+      ],
+      [
+        0.7051162123680115,
+        "guangzhou"
+      ],
+      [
+        0.6918535232543945,
+        "nanjing"
+      ],
+      [
+        0.6907883882522583,
+        "pudong"
+      ],
+      [
+        0.6887326240539551,
+        "chongqing"
+      ],
+      [
+        0.686598002910614,
+        "zhuhai"
+      ],
+      [
+        0.6856949925422668,
+        "qingdao"
+      ],
+      [
+        0.6827530264854431,
+        "guangdong"
+      ],
+      [
+        0.6765604019165039,
+        "taipei"
+      ]
+    ],
+    [
+      [
+        0.7933123707771301,
+        "sbux"
+      ],
+      [
+        0.7850727438926697,
+        "starbuck"
+      ],
+      [
+        0.7758148312568665,
+        "starbucks."
+      ],
+      [
+        0.7704665660858154,
+        "Starbucks"
+      ],
+      [
+        0.7307795882225037,
+        "Starbucks."
+      ],
+      [
+        0.7183142304420471,
+        "Sbux"
+      ],
+      [
+        0.7094708681106567,
+        "frappucino"
+      ],
+      [
+        0.6812894940376282,
+        "mcdonalds"
+      ],
+      [
+        0.6620201468467712,
+        "frappuccino"
+      ],
+      [
+        0.6614212393760681,
+        "frappucinos"
+      ]
+    ],
+    [
+      [
+        0.8651244640350342,
+        "beers"
+      ],
+      [
+        0.7781373858451843,
+        "microbrew"
+      ],
+      [
+        0.7754781246185303,
+        "lager"
+      ],
+      [
+        0.7708958387374878,
+        "beer.And"
+      ],
+      [
+        0.7698356509208679,
+        "micro-brew"
+      ],
+      [
+        0.7609753608703613,
+        "beer.So"
+      ],
+      [
+        0.7556479573249817,
+        "beer.But"
+      ],
+      [
+        0.7539485096931458,
+        "beer.The"
+      ],
+      [
+        0.7510967254638672,
+        "beer.It"
+      ],
+      [
+        0.7490556240081787,
+        "beer-"
+      ]
+    ]
+  ],
+  "error": null
+}
